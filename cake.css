@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    background-color: #BCEFF0;
+    font: normal normal bold 18px Passenger-Display-Bold;
+    color: #686868;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.navbar-brand{
+    font: normal normal bold 18px Passenger-Display-Bold;
+    color: #686868;
+    font-size: 30px;
+}
+.nav-link:hover{
+    transform: scale(1.1);
+background-color:lightcoral;
+color:white;
+border-radius: 10px;
+}
+.dropdown-item:hover{
+    background-color:lightcoral;
+    color:white;
+    border-radius: 10px; 
+}
+.line2{
+    margin-top: -100px;
+    background-color: lightblue;
+}
+.fs-1{
+    padding-bottom: 20px;
+    font: normal normal bold 18px Passenger-Display-Bold;
+    color: #686868;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    
+    background-color: lemonchiffon;
+    margin-top: -50px;
+}
+.card .card-item {
+    height: 100%;
+    transition: 0.5s;
+    background: linear-gradient(rgba(255, 181, 36, 0.7), rgba(255, 181, 36, 0.7));
+}
+.card .card-item:hover {
+    box-shadow: 0 0 55px rgba(0, 0, 0, 0.4);
+    
+}
+
+.card .card-item .card-img {
+    overflow: hidden;
+    transition: 0.5s;
+    border-radius: 10px 10px 0 0;
+}
+
+.card .card-item .card-img img {
+    transition: 0.5s;
+}
+
+.card .card-item .card-img img:hover {
+    transform: scale(1.3);
+}
+.card h1{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    background-color: #BCEFF0;
+    font: normal normal bold 18px Passenger-Display-Bold;
+    color: #686868;
+    font-size: 30px;
+    
+}
+.banner .banner-btn:hover {
+    background: var(--bs-primary);
+}
+.banner .text-white{
+    font-size:80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
+.banner .text-dark{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+.banner .text{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    color:black;
+}
+.bs .text-center:hover{
+    box-shadow: 0 0 55px rgba(0, 0, 0, 0.4);
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+.counter {
+    height: 100%;
+    text-align: center;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+}
+
+.counter i {
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+
+.counter h4 {
+    color: #81C408;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.counter h1 {
+    margin-bottom: 0;
+    border: none;
+}
+
+.footer .footer-item .btn-link {
+    line-height: 35px;
+    color: rgba(255, 255, 255, .5);
+    transition: 0.5s;
+}
+
+.footer .footer-item .btn-link:hover {
+    color:yellow;
+}
+
+.footer .footer-item p.mb-4 {
+    line-height: 35px;
+}
+

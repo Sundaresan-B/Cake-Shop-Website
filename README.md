@@ -1,3 +1,4 @@
+![logo](https://github.com/user-attachments/assets/80c620c9-58c6-400a-8838-45a8929cd06a)
 # Cake-Shop-Wepsite
 This Cake Shop Website project was developed using Bootstrap, HTML, and CSS. The project showcases a visually appealing and responsive website design tailored for a cake shop business. It includes features such as a product catalog, shopping cart, and contact form.
 
